@@ -1,20 +1,16 @@
-import React from 'react';
+import React, { Component } from 'react'
 
-class ClickityClick extends React.Component {
+class ClickityClick extends Component {
   constructor() {
     super();
-
-    // Define the initial state:
     this.state = {
       hasBeenClicked: false,
     };
+    this.handleClick = this.handleClick.bind(this);
   }
 
   handleClick = () => {
-    // Update our state here...
-    this.setState({
-    hasBeenClicked: true
-  })
+    this.setState({hasBeenClicked: true});
   }
 
   render() {
