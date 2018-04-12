@@ -1,9 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import ClickityClick from './components/ClickityClick';
+import AddressInfo from './components/AddressInfo';
+
 ReactDOM.render(
   <div>
-    Mount Components Here
+    <ClickityClick />
+    <AddressInfo />
   </div>,
   document.getElementById('root')
 );
