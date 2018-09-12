@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "mocha": "^5.2.0",
-    "react-scripts": "^1.1.4",
+    "react-scripts": "^1.1.5",
     "webpack": "^3.9.2",
     "webpack-dev-server": "^2.9.5"
   },
