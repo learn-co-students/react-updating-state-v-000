@@ -16,7 +16,7 @@ component that will change what it displays based on state.
 ![Unknown state](https://media.giphy.com/media/fFIaNdVhdvoOc/giphy.gif)
 
 While a React component can have initial state, the real power is in updating
-its state — after all, if we didn't need to update the state, the component
+its state — after all, if we did==n't need to update the state, the component
 shouldn't _have_ any state. State is only reserved for data that _changes_ in
 our component and is visible in the UI.
 
@@ -283,10 +283,10 @@ It's important to note the difference between changes in state and changes in
 props. Changes in state and/or props will both trigger a re-render of our React
 component. However, changes in state can only happen _internally_ due to
 components changing their own state. Thus, a component can trigger changes in
-its own state. 
+its own state.
 
 A component _cannot_ change its props. Changes in props can only happen
-_externally_, meaning the parent or grandparent component changes the 
+_externally_, meaning the parent or grandparent component changes the
 values it passing down to its children.
 
 ## Resources
