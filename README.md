@@ -5,7 +5,7 @@
 In this code along, we'll discuss updating state in React and create an
 component that will change what it displays based on state.
 
-## Objectives
+## Objectives/Lecture
 
 1. Update state in React by using `this.setState()` and passing in an object
 2. Describe what happens when state is updated
@@ -283,10 +283,10 @@ It's important to note the difference between changes in state and changes in
 props. Changes in state and/or props will both trigger a re-render of our React
 component. However, changes in state can only happen _internally_ due to
 components changing their own state. Thus, a component can trigger changes in
-its own state. 
+its own state.
 
 A component _cannot_ change its props. Changes in props can only happen
-_externally_, meaning the parent or grandparent component changes the 
+_externally_, meaning the parent or grandparent component changes the
 values it passing down to its children.
 
 ## Resources
