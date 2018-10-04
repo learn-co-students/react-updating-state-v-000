@@ -2,6 +2,7 @@ const path = require('path');
 const webpack = require('webpack');
 
 // env
+SKIP_PREFLIGHT_CHECK=true
 const buildDirectory = './dist/';
 var APP_DIR = path.resolve(__dirname, 'src/');
 module.exports = {
