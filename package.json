@@ -12,9 +12,9 @@
   },
   "devDependencies": {
     "mocha": "^5.2.0",
-    "react-scripts": "^1.1.4",
+    "react-scripts": "^2.1.1",
     "webpack": "^3.9.2",
-    "webpack-dev-server": "^2.9.5"
+    "webpack-dev-server": "^3.1.10"
   },
   "dependencies": {
     "babel-core": "^6.22.1",
@@ -32,5 +32,11 @@
     "dev:hot": "webpack-dev-server --hot --inline --progress --colors --watch --display-error-details --display-cached --content-base ./",
     "test:watch": "npm run test -- --watch",
     "eject": "react-scripts eject"
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
