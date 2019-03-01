@@ -15,7 +15,7 @@ export default class ClickityClick extends React.Component {
     // Update state
     this.setState({
       hasBeenClicked: true
-    }, () => console.log(this.state.hasBeenClicked))
+    }, () => console.log(this.state.hasBeenClicked)) // Callback fires once the state has been updated
   };
 
   render() {
