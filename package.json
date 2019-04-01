@@ -15,6 +15,9 @@
     "react-scripts": "^2.1.8"
   },
   "dependencies": {
+    "@webassemblyjs/ast": "1.8.5",
+  "@webassemblyjs/helper-module-context": "1.8.5",
+  "@webassemblyjs/wasm-edit": "1.8.5",
     "babel-core": "^6.22.1",
     "babel-preset-airbnb": "^2.1.1",
     "babel-preset-env": "^1.7.0",
