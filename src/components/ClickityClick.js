@@ -6,7 +6,14 @@ class ClickityClick extends React.Component {
 
     // Define the initial state:
     this.state = {
-      hasBeenClicked: false
+      hasB  hasBeenClicked: false,
+            currentTheme: 'blue',
+            addressInfo: {
+                street: null,
+                number: null,
+                city: null,
+                country: null
+              }
     };
   }
 
@@ -14,7 +21,7 @@ class ClickityClick extends React.Component {
     this.setState({
       hasBeenClicked: true
     })
-    console.log(this.state.hasBeenClicked);
+    console.log(this.state.hasBeenClicked);// prints true
   };
 
   render() {
