@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './components/App'
+
 
 ReactDOM.render(
   <div>
-    Mount Components Here
+    <App />
   </div>,
   document.getElementById('root')
 );
