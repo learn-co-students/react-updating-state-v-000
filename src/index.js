@@ -1,9 +1,9 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+// src/index.js
+import React from "react";
+import ReactDOM from "react-dom";
+import LightSwitch from "./components/LightSwitch";
+{
+  /*import ClickityClick from "./components/ClickityClick";*/
+}
 
-ReactDOM.render(
-  <div>
-    Mount Components Here
-  </div>,
-  document.getElementById('root')
-);
+ReactDOM.render(<LightSwitch />, document.getElementById("root"));
